@@ -17,24 +17,22 @@ let numList = [
     'sempronio',
     'pippo',
     'pluto',
-    'paperino',
-    'topolino',
-    'waldo',
-    'walter',
-    'wario'
+    'paperino'
 ];
 
 console.log(numList);
 
 
 
-//creo una lista con indici random e inserisco nuovi indici random
+
+
+//SENZA ARRAY?
 let rndIndexList = [];
 
 while (rndIndexList.length !== numList.length) {
-    const rndIndex = Math.floor(Math.random() * numList.length); //va da 0 a 4
+    const rndIndex = Math.floor(Math.random() * numList.length); //genero un num rnd da 0 a lunghezza lista
 
-    let numFinded = false;
+    let numFinded = false; //controllo se il nuovo num è già presente nella lista
     for (let i = 0; i < rndIndexList.length; i++){
         if (rndIndex === rndIndexList[i]){
             numFinded = true;
