@@ -31,16 +31,7 @@ console.log('lista finale', userNumList);
 //li stampo in console uno alla volta
 for (let i = 0; i < userNumList.length; i++){
     console.log('num utente alla posizione', userNumList[i]);
-}
-
-
-
-
-
-
-
-
-
+};
 
 
 
