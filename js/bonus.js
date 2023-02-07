@@ -63,38 +63,6 @@ for (let i = 0; i < numList.length; i++){
 console.log(newRndList); //EUREKA
 
 
-
-//OLD
-//creo una lista con indici random e inserisco nuovi indici random
-// let rndIndexList = [];
-
-// while (rndIndexList.length !== numList.length) {
-//     const rndIndex = Math.floor(Math.random() * numList.length); //va da 0 a 4
-
-//     if (rndIndexList.length === 0){ //se lista vuota pusho direttamente
-//         rndIndexList.push(rndIndex);
-
-//     } else { //altrimenti controllo se num già presente
-//         let control = 0;
-//         for (let i = 0; i < rndIndexList.length; i++){
-
-//             if (rndIndex === rndIndexList[i]){
-//                 control++;
-//             } 
-
-//         }
-
-//         if (control === 0) {
-//             rndIndexList.push(rndIndex);
-//         };
-
-//     }
-
-// }
-
-// console.log(rndIndexList);
-
-
 //METHOD 2
     //prendo un elemento random della lista e lo metto in una nuova lista
     //per gli elementi successivi faccio lo stesso, controllando che l'elemento non sia stato già preso
